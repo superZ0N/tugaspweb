@@ -1,0 +1,104 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+    <body bgcolor="0F1722">
+    <div class="w3-container w3-center">
+        <img src="banner.jpg" style="width: 100%">
+</div>
+    <div class="w3-bar w3-red w3-card-5">
+        <button class="w3-bar-item w3-button" onclick="openAgent('Jett')"><b>Jett<b></b></button>
+        <button class="w3-bar-item w3-button" onclick="openAgent('updraft')"><b>Skill 1<b></b></button>
+        <button class="w3-bar-item w3-button" onclick="openAgent('tailwind')"><b>Skill 2<b></b></button>
+        <button class="w3-bar-item w3-button" onclick="openAgent('cloudburst')"><b>Skill 3<b></b></button>
+        <button class="w3-bar-item w3-button" onclick="openAgent('bladestorm')"><b>Ultimate<b></b></button>
+        <div class="w3-dropdown-hover w3-red">
+            <button class="w3-button">Rekomendasi Senjata</button>
+            <div class="w3-dropdown-content w3-red w3-bar-block w3-card-2">
+                <button class="w3-bar-item w3-button" onclick="openAgent('vandal')">Vandal</button>
+                <button class="w3-bar-item w3-button" onclick="openAgent('operator')">Operator</button>
+    </div>
+            </div>
+        <button class="w3-bar-item w3-button" onclick="openAgent('profile')">Profile</button>
+    </div>
+<center>
+    <div id="profile" class="w3-container w3-animate-top agent" style="display:none">
+        <p class="w3-text-white">Nama :	Muhammad Shidiq Ramadhan Hidayatulloh<br>
+                                 NIM :	10123252<br>Kelas :	IF-6
+        </p>
+    </div>
+    <div id="Jett" class="w3-container agent w3-animate-zoom" style="display:none">
+        <h1 class="w3-text-white" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+            Role : Duelist</h1>
+        <img src="jett.jpg" style="width: 50%">
+        <p class="w3-text-white">Biografi</p>
+        <p class="w3-text-white">Mewakili negara asalnya, Korea Selatan, gaya bertarung Jett yang tangkas dengan banyak pengelakan memungkinkannya mengambil risiko yang tak bisa dilakukan orang lain. Dia mengitari tiap pertempuran, menebas musuh sebelum mereka menyadari apa yang terjadi.</p>
+    </div>
+    <div id="updraft" class="w3-container agent w3-animate-bottom" style="display:none">
+        <h1 class="w3-text-white" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            Q : Updraft</h1>
+        <img src="updraft.png" style="width: 6%">
+        <tr><td colspan="2"><br></td></tr>
+        <video width="640" height="480" controls>
+            <source src="updraft.mp4" type="video/mp4">
+        </video>
+        <p class="w3-text-white">Dengan menggunakan skill ini Jett akan terbang tinggi ke udara. Skill ini biasanya digunakan untuk mengambil highground dengan cara menaiki objek dan menyerang lawan dari bagian atas.</p>
+    </div>
+    <div id="tailwind" class="w3-container agent w3-animate-right" style="display:none">
+        <h1 class="w3-text-white" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            E : Tailwind</h1>
+        <img src="tailwind.png" style="width: 6%">
+        <tr><td colspan="2"><br></td></tr>
+        <video width="640" height="480" controls>
+            <source src="tailwind.mp4" type="video/mp4">
+        </video>
+        <p class="w3-text-white">AKTIFKAN untuk menyiapkan embusan angin selama beberapa saat. GUNAKAN KEMBALI angin untuk melempar Jett ke arah dia bergerak. Jika Jett berdiri diam, dia akan terlempar ke depan. Charge Tailwind direset tiap dua kill.</p>
+    </div>
+    <div id="cloudburst" class="w3-container agent w3-animate-bottom" style="display:none">
+        <h1 class="w3-text-white" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            C : Cloudburst</h1>
+        <img src="cloudburst.png" style="width: 6%">
+        <tr><td colspan="2"><br></td></tr>
+        <video width="640" height="480" controls>
+            <source src="cloudburst.mp4" type="video/mp4">
+        </video>
+        <p class="w3-text-white">Melempar proyektil yang membesar menjadi awan penghalang pandangan singkat saat membentur permukaan. TAHAN tombol skill (C) untuk membelokkan asap ke arah penanda sasaranmu.</p>
+    </div>
+    <div id="bladestorm" class="w3-container agent w3-animate-bottom" style="display:none">
+        <h1 class="w3-text-white" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            X : Bladestorm</h1>
+        <img src="bladestorm.png" style="width: 6%">
+        <tr><td colspan="2"><br></td></tr>
+        <video width="640" height="480" controls>
+            <source src="bladestorm.mp4" type="video/mp4">
+        </video>
+        <p class="w3-text-white">SIAGAKAN satu set pisau lempar akurasi tinggi. TEMBAK untuk melempar satu pisau dan recharge pisau saat melakukan kill. KLIK KANAN untuk melempar semua belati, tetapi tidak recharge saat melakukan kill.</p>
+    </div>
+    <div id="vandal" class="w3-container agent w3-animate-zoom" style="display:none">
+        <h1 class="w3-text-white" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            Assault Rifle</h1>
+        <img src="vandal.png" style="width: 20%"> 
+        <tr><td colspan="2"><br></td></tr>
+        <p class="w3-text-white">Salah satu senjata serba guna terbaik di VALORANT, senjata ini paling efektif dalam menyerang target individu dalam jarak yang lebih jauh, sehingga dapat membunuh musuh mana pun dengan satu peluru jika mengenai kepala sejauh apapun.
+        </p>
+    </div>
+    <div id="operator" class="w3-container agent w3-animate-zoom" style="display:none">
+        <h1 class="w3-text-white" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            Sniper Rifle</h1>
+        <img src="operator.png" style="width: 20%"> 
+        <tr><td colspan="2"><br></td></tr>
+        <p class="w3-text-white">Operator adalah senjata bervalue tinggi sekaligus senjata termahal di dalam game. Sebagai senjata sniper, senjata ini memiliki scope dengan dua pengaturan zoom pada mode klik kanan-nya yang memiliki akurasi sempurna saat diam. Sebaliknya, akurasi tembakan Utama (NoScope) Operator sangat tidak akurat.
+        </p>
+    </div>
+</center>
+<script>
+    function openAgent(namaagent) {
+        var i;
+        var x = document.getElementsByClassName("agent");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(namaagent).style.display = "block";
+    }
+</script>
+</body>
+</html>
